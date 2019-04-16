@@ -1,0 +1,24 @@
+{
+    "name": "ToyotaAssistant",
+    "services": [
+        {
+            "type": "endpoint",
+            "name": "development",
+            "endpoint": "http://localhost:3978/api/messages",
+            "appId": "",
+            "appPassword": "",
+            "id": "1"
+        },  
+        {
+    "type": "qna",
+    "name": "ToyotaAssistantKB",
+    "kbId": "151a45a7-b50e-40b6-b181-2bf7c685bfc3",
+    "hostname": "https://toyotaassistant.azurewebsites.net/qnamaker",
+    "endpointKey": "0702a9d6-6159-463f-b52b-c2bcf8bfad00",
+    "subscriptionKey": "d1c798f3-3150-4038-ab8a-064178e74a1e",
+    "id": "2"
+}
+    ],
+    "padlock": "",
+    "version": "2.0"
+}
